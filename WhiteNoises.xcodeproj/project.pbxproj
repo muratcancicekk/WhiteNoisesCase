@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1520D4291E54DD007AF3BF /* WhiteNoisesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1520D3291E54DD007AF3BF /* WhiteNoisesApp.swift */; };
+		FB1520D8291E54DE007AF3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1520D7291E54DE007AF3BF /* Assets.xcassets */; };
+		FB1520DB291E54DE007AF3BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1520DA291E54DE007AF3BF /* Preview Assets.xcassets */; };
+		FB1520E5291E54DE007AF3BF /* WhiteNoisesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1520E4291E54DE007AF3BF /* WhiteNoisesTests.swift */; };
+		FB1520EF291E54DE007AF3BF /* WhiteNoisesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1520EE291E54DE007AF3BF /* WhiteNoisesUITests.swift */; };
+		FB1520F1291E54DE007AF3BF /* WhiteNoisesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1520F0291E54DE007AF3BF /* WhiteNoisesUITestsLaunchTests.swift */; };
+		FB152107291E558F007AF3BF /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB152106291E558F007AF3BF /* HomePageView.swift */; };
+		FB15210B291E59AC007AF3BF /* HomePageCategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15210A291E59AC007AF3BF /* HomePageCategoriesModel.swift */; };
+		FB152119291E5FB0007AF3BF /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB152111291E5FB0007AF3BF /* OFL.txt */; };
+		FB152121291FA16B007AF3BF /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB152120291FA16B007AF3BF /* UIScreen+Extension.swift */; };
+		FB152124291FA224007AF3BF /* HomePageCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB152123291FA224007AF3BF /* HomePageCustomCell.swift */; };
+		FB152127291FA54C007AF3BF /* HomePageComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB152126291FA54C007AF3BF /* HomePageComponents.swift */; };
+		FB152129291FA943007AF3BF /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB152128291FA943007AF3BF /* Text+Extension.swift */; };
+		FB15212C291FC067007AF3BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15212B291FC067007AF3BF /* Constants.swift */; };
+		FB152133291FCF52007AF3BF /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB152132291FCF52007AF3BF /* FontManager.swift */; };
+		FB7EA70C292030AB004AF798 /* LeckerliOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7EA70B292030AB004AF798 /* LeckerliOne-Regular.ttf */; };
+		FB7EA7142920311F004AF798 /* Tajawal-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7EA70D2920311F004AF798 /* Tajawal-ExtraBold.ttf */; };
+		FB7EA7152920311F004AF798 /* Tajawal-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7EA70E2920311F004AF798 /* Tajawal-ExtraLight.ttf */; };
+		FB7EA7162920311F004AF798 /* Tajawal-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7EA70F2920311F004AF798 /* Tajawal-Black.ttf */; };
+		FB7EA7172920311F004AF798 /* Tajawal-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7EA7102920311F004AF798 /* Tajawal-Light.ttf */; };
+		FB7EA7182920311F004AF798 /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7EA7112920311F004AF798 /* Tajawal-Bold.ttf */; };
+		FB7EA7192920311F004AF798 /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7EA7122920311F004AF798 /* Tajawal-Regular.ttf */; };
+		FB7EA71A2920311F004AF798 /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7EA7132920311F004AF798 /* Tajawal-Medium.ttf */; };
+		FB7EA71D2920341F004AF798 /* BottomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EA71C2920341F004AF798 /* BottomTabbar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB1520E1291E54DE007AF3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1520C8291E54DC007AF3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1520CF291E54DD007AF3BF;
+			remoteInfo = WhiteNoises;
+		};
+		FB1520EB291E54DE007AF3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1520C8291E54DC007AF3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1520CF291E54DD007AF3BF;
+			remoteInfo = WhiteNoises;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB1520D0291E54DD007AF3BF /* WhiteNoises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteNoises.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1520D3291E54DD007AF3BF /* WhiteNoisesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteNoisesApp.swift; sourceTree = "<group>"; };
+		FB1520D7291E54DE007AF3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1520DA291E54DE007AF3BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB1520E0291E54DE007AF3BF /* WhiteNoisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteNoisesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1520E4291E54DE007AF3BF /* WhiteNoisesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteNoisesTests.swift; sourceTree = "<group>"; };
+		FB1520EA291E54DE007AF3BF /* WhiteNoisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteNoisesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1520EE291E54DE007AF3BF /* WhiteNoisesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteNoisesUITests.swift; sourceTree = "<group>"; };
+		FB1520F0291E54DE007AF3BF /* WhiteNoisesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteNoisesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB152106291E558F007AF3BF /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		FB15210A291E59AC007AF3BF /* HomePageCategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCategoriesModel.swift; sourceTree = "<group>"; };
+		FB152111291E5FB0007AF3BF /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL.txt; path = ../../../../../Downloads/Tajawal/OFL.txt; sourceTree = "<group>"; };
+		FB152120291FA16B007AF3BF /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		FB152123291FA224007AF3BF /* HomePageCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCustomCell.swift; sourceTree = "<group>"; };
+		FB152126291FA54C007AF3BF /* HomePageComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageComponents.swift; sourceTree = "<group>"; };
+		FB152128291FA943007AF3BF /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		FB15212B291FC067007AF3BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB15212F291FC8CD007AF3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FB152132291FCF52007AF3BF /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		FB7EA70B292030AB004AF798 /* LeckerliOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeckerliOne-Regular.ttf"; path = "../../../../../Downloads/Leckerli_One-2/LeckerliOne-Regular.ttf"; sourceTree = "<group>"; };
+		FB7EA70D2920311F004AF798 /* Tajawal-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tajawal-ExtraBold.ttf"; path = "../../../../../Downloads/Tajawal-2/Tajawal-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FB7EA70E2920311F004AF798 /* Tajawal-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tajawal-ExtraLight.ttf"; path = "../../../../../Downloads/Tajawal-2/Tajawal-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FB7EA70F2920311F004AF798 /* Tajawal-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tajawal-Black.ttf"; path = "../../../../../Downloads/Tajawal-2/Tajawal-Black.ttf"; sourceTree = "<group>"; };
+		FB7EA7102920311F004AF798 /* Tajawal-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tajawal-Light.ttf"; path = "../../../../../Downloads/Tajawal-2/Tajawal-Light.ttf"; sourceTree = "<group>"; };
+		FB7EA7112920311F004AF798 /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tajawal-Bold.ttf"; path = "../../../../../Downloads/Tajawal-2/Tajawal-Bold.ttf"; sourceTree = "<group>"; };
+		FB7EA7122920311F004AF798 /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tajawal-Regular.ttf"; path = "../../../../../Downloads/Tajawal-2/Tajawal-Regular.ttf"; sourceTree = "<group>"; };
+		FB7EA7132920311F004AF798 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tajawal-Medium.ttf"; path = "../../../../../Downloads/Tajawal-2/Tajawal-Medium.ttf"; sourceTree = "<group>"; };
+		FB7EA71C2920341F004AF798 /* BottomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabbar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB1520CD291E54DD007AF3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1520DD291E54DE007AF3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1520E7291E54DE007AF3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1520C7291E54DC007AF3BF = {
+			isa = PBXGroup;
+			children = (
+				FB1520D2291E54DD007AF3BF /* WhiteNoises */,
+				FB1520E3291E54DE007AF3BF /* WhiteNoisesTests */,
+				FB1520ED291E54DE007AF3BF /* WhiteNoisesUITests */,
+				FB1520D1291E54DD007AF3BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1520D1291E54DD007AF3BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1520D0291E54DD007AF3BF /* WhiteNoises.app */,
+				FB1520E0291E54DE007AF3BF /* WhiteNoisesTests.xctest */,
+				FB1520EA291E54DE007AF3BF /* WhiteNoisesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1520D2291E54DD007AF3BF /* WhiteNoises */ = {
+			isa = PBXGroup;
+			children = (
+				FB15212F291FC8CD007AF3BF /* Info.plist */,
+				FB152103291E554B007AF3BF /* Resources */,
+				FB152102291E5540007AF3BF /* Scenes */,
+				FB152101291E5535007AF3BF /* Utilities */,
+				FB152100291E552A007AF3BF /* WhiteNoisesApp */,
+				FB1520FF291E5523007AF3BF /* Model */,
+				FB1520FE291E5513007AF3BF /* Network */,
+				FB1520FD291E550A007AF3BF /* AppDelegate */,
+				FB1520D9291E54DE007AF3BF /* Preview Content */,
+			);
+			path = WhiteNoises;
+			sourceTree = "<group>";
+		};
+		FB1520D9291E54DE007AF3BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB1520DA291E54DE007AF3BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB1520E3291E54DE007AF3BF /* WhiteNoisesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1520E4291E54DE007AF3BF /* WhiteNoisesTests.swift */,
+			);
+			path = WhiteNoisesTests;
+			sourceTree = "<group>";
+		};
+		FB1520ED291E54DE007AF3BF /* WhiteNoisesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1520EE291E54DE007AF3BF /* WhiteNoisesUITests.swift */,
+				FB1520F0291E54DE007AF3BF /* WhiteNoisesUITestsLaunchTests.swift */,
+			);
+			path = WhiteNoisesUITests;
+			sourceTree = "<group>";
+		};
+		FB1520FD291E550A007AF3BF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FB1520FE291E5513007AF3BF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FB1520FF291E5523007AF3BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB152108291E5981007AF3BF /* CollectionModels */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB152100291E552A007AF3BF /* WhiteNoisesApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB1520D3291E54DD007AF3BF /* WhiteNoisesApp.swift */,
+			);
+			path = WhiteNoisesApp;
+			sourceTree = "<group>";
+		};
+		FB152101291E5535007AF3BF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FB152130291FCF3D007AF3BF /* Manager */,
+				FB15212A291FC059007AF3BF /* Constants */,
+				FB152122291FA213007AF3BF /* Components */,
+				FB15211F291FA157007AF3BF /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FB152102291E5540007AF3BF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EA71B2920340B004AF798 /* BottomTabbar */,
+				FB152105291E5572007AF3BF /* HomePageView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FB152103291E554B007AF3BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB1520D7291E54DE007AF3BF /* Assets.xcassets */,
+				FB152104291E5556007AF3BF /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB152104291E5556007AF3BF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FB152111291E5FB0007AF3BF /* OFL.txt */,
+				FB7EA70F2920311F004AF798 /* Tajawal-Black.ttf */,
+				FB7EA7112920311F004AF798 /* Tajawal-Bold.ttf */,
+				FB7EA70D2920311F004AF798 /* Tajawal-ExtraBold.ttf */,
+				FB7EA70E2920311F004AF798 /* Tajawal-ExtraLight.ttf */,
+				FB7EA7102920311F004AF798 /* Tajawal-Light.ttf */,
+				FB7EA7132920311F004AF798 /* Tajawal-Medium.ttf */,
+				FB7EA7122920311F004AF798 /* Tajawal-Regular.ttf */,
+				FB7EA70B292030AB004AF798 /* LeckerliOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FB152105291E5572007AF3BF /* HomePageView */ = {
+			isa = PBXGroup;
+			children = (
+				FB152125291FA51A007AF3BF /* HomePageComponent */,
+				FB152106291E558F007AF3BF /* HomePageView.swift */,
+			);
+			path = HomePageView;
+			sourceTree = "<group>";
+		};
+		FB152108291E5981007AF3BF /* CollectionModels */ = {
+			isa = PBXGroup;
+			children = (
+				FB152109291E598E007AF3BF /* HomePageModel */,
+			);
+			path = CollectionModels;
+			sourceTree = "<group>";
+		};
+		FB152109291E598E007AF3BF /* HomePageModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB15210A291E59AC007AF3BF /* HomePageCategoriesModel.swift */,
+			);
+			path = HomePageModel;
+			sourceTree = "<group>";
+		};
+		FB15211F291FA157007AF3BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB152120291FA16B007AF3BF /* UIScreen+Extension.swift */,
+				FB152128291FA943007AF3BF /* Text+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB152122291FA213007AF3BF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FB152123291FA224007AF3BF /* HomePageCustomCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FB152125291FA51A007AF3BF /* HomePageComponent */ = {
+			isa = PBXGroup;
+			children = (
+				FB152126291FA54C007AF3BF /* HomePageComponents.swift */,
+			);
+			path = HomePageComponent;
+			sourceTree = "<group>";
+		};
+		FB15212A291FC059007AF3BF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FB15212B291FC067007AF3BF /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FB152130291FCF3D007AF3BF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FB152132291FCF52007AF3BF /* FontManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FB7EA71B2920340B004AF798 /* BottomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EA71C2920341F004AF798 /* BottomTabbar.swift */,
+			);
+			path = BottomTabbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB1520CF291E54DD007AF3BF /* WhiteNoises */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1520F4291E54DE007AF3BF /* Build configuration list for PBXNativeTarget "WhiteNoises" */;
+			buildPhases = (
+				FB1520CC291E54DD007AF3BF /* Sources */,
+				FB1520CD291E54DD007AF3BF /* Frameworks */,
+				FB1520CE291E54DD007AF3BF /* Resources */,
+				FB7EA71E29203D64004AF798 /* Swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteNoises;
+			productName = WhiteNoises;
+			productReference = FB1520D0291E54DD007AF3BF /* WhiteNoises.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB1520DF291E54DE007AF3BF /* WhiteNoisesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1520F7291E54DE007AF3BF /* Build configuration list for PBXNativeTarget "WhiteNoisesTests" */;
+			buildPhases = (
+				FB1520DC291E54DE007AF3BF /* Sources */,
+				FB1520DD291E54DE007AF3BF /* Frameworks */,
+				FB1520DE291E54DE007AF3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1520E2291E54DE007AF3BF /* PBXTargetDependency */,
+			);
+			name = WhiteNoisesTests;
+			productName = WhiteNoisesTests;
+			productReference = FB1520E0291E54DE007AF3BF /* WhiteNoisesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB1520E9291E54DE007AF3BF /* WhiteNoisesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1520FA291E54DE007AF3BF /* Build configuration list for PBXNativeTarget "WhiteNoisesUITests" */;
+			buildPhases = (
+				FB1520E6291E54DE007AF3BF /* Sources */,
+				FB1520E7291E54DE007AF3BF /* Frameworks */,
+				FB1520E8291E54DE007AF3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1520EC291E54DE007AF3BF /* PBXTargetDependency */,
+			);
+			name = WhiteNoisesUITests;
+			productName = WhiteNoisesUITests;
+			productReference = FB1520EA291E54DE007AF3BF /* WhiteNoisesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1520C8291E54DC007AF3BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FB1520CF291E54DD007AF3BF = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					FB1520DF291E54DE007AF3BF = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = FB1520CF291E54DD007AF3BF;
+					};
+					FB1520E9291E54DE007AF3BF = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = FB1520CF291E54DD007AF3BF;
+					};
+				};
+			};
+			buildConfigurationList = FB1520CB291E54DC007AF3BF /* Build configuration list for PBXProject "WhiteNoises" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB1520C7291E54DC007AF3BF;
+			productRefGroup = FB1520D1291E54DD007AF3BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB1520CF291E54DD007AF3BF /* WhiteNoises */,
+				FB1520DF291E54DE007AF3BF /* WhiteNoisesTests */,
+				FB1520E9291E54DE007AF3BF /* WhiteNoisesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB1520CE291E54DD007AF3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7EA71A2920311F004AF798 /* Tajawal-Medium.ttf in Resources */,
+				FB1520DB291E54DE007AF3BF /* Preview Assets.xcassets in Resources */,
+				FB1520D8291E54DE007AF3BF /* Assets.xcassets in Resources */,
+				FB7EA70C292030AB004AF798 /* LeckerliOne-Regular.ttf in Resources */,
+				FB7EA7162920311F004AF798 /* Tajawal-Black.ttf in Resources */,
+				FB7EA7152920311F004AF798 /* Tajawal-ExtraLight.ttf in Resources */,
+				FB7EA7142920311F004AF798 /* Tajawal-ExtraBold.ttf in Resources */,
+				FB7EA7192920311F004AF798 /* Tajawal-Regular.ttf in Resources */,
+				FB7EA7172920311F004AF798 /* Tajawal-Light.ttf in Resources */,
+				FB7EA7182920311F004AF798 /* Tajawal-Bold.ttf in Resources */,
+				FB152119291E5FB0007AF3BF /* OFL.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1520DE291E54DE007AF3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1520E8291E54DE007AF3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FB7EA71E29203D64004AF798 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB1520CC291E54DD007AF3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB152129291FA943007AF3BF /* Text+Extension.swift in Sources */,
+				FB152107291E558F007AF3BF /* HomePageView.swift in Sources */,
+				FB152127291FA54C007AF3BF /* HomePageComponents.swift in Sources */,
+				FB152121291FA16B007AF3BF /* UIScreen+Extension.swift in Sources */,
+				FB7EA71D2920341F004AF798 /* BottomTabbar.swift in Sources */,
+				FB152133291FCF52007AF3BF /* FontManager.swift in Sources */,
+				FB1520D4291E54DD007AF3BF /* WhiteNoisesApp.swift in Sources */,
+				FB152124291FA224007AF3BF /* HomePageCustomCell.swift in Sources */,
+				FB15210B291E59AC007AF3BF /* HomePageCategoriesModel.swift in Sources */,
+				FB15212C291FC067007AF3BF /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1520DC291E54DE007AF3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1520E5291E54DE007AF3BF /* WhiteNoisesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1520E6291E54DE007AF3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1520EF291E54DE007AF3BF /* WhiteNoisesUITests.swift in Sources */,
+				FB1520F1291E54DE007AF3BF /* WhiteNoisesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB1520E2291E54DE007AF3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB1520CF291E54DD007AF3BF /* WhiteNoises */;
+			targetProxy = FB1520E1291E54DE007AF3BF /* PBXContainerItemProxy */;
+		};
+		FB1520EC291E54DE007AF3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB1520CF291E54DD007AF3BF /* WhiteNoises */;
+			targetProxy = FB1520EB291E54DE007AF3BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB1520F2291E54DE007AF3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB1520F3291E54DE007AF3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB1520F5291E54DE007AF3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhiteNoises/Preview Content\"";
+				DEVELOPMENT_TEAM = SV8VW89WSS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhiteNoises/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.WhiteNoises;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB1520F6291E54DE007AF3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhiteNoises/Preview Content\"";
+				DEVELOPMENT_TEAM = SV8VW89WSS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhiteNoises/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.WhiteNoises;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB1520F8291E54DE007AF3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV8VW89WSS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.WhiteNoisesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteNoises.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhiteNoises";
+			};
+			name = Debug;
+		};
+		FB1520F9291E54DE007AF3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV8VW89WSS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.WhiteNoisesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteNoises.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhiteNoises";
+			};
+			name = Release;
+		};
+		FB1520FB291E54DE007AF3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV8VW89WSS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.WhiteNoisesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhiteNoises;
+			};
+			name = Debug;
+		};
+		FB1520FC291E54DE007AF3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV8VW89WSS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murat.WhiteNoisesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhiteNoises;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB1520CB291E54DC007AF3BF /* Build configuration list for PBXProject "WhiteNoises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1520F2291E54DE007AF3BF /* Debug */,
+				FB1520F3291E54DE007AF3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1520F4291E54DE007AF3BF /* Build configuration list for PBXNativeTarget "WhiteNoises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1520F5291E54DE007AF3BF /* Debug */,
+				FB1520F6291E54DE007AF3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1520F7291E54DE007AF3BF /* Build configuration list for PBXNativeTarget "WhiteNoisesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1520F8291E54DE007AF3BF /* Debug */,
+				FB1520F9291E54DE007AF3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1520FA291E54DE007AF3BF /* Build configuration list for PBXNativeTarget "WhiteNoisesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1520FB291E54DE007AF3BF /* Debug */,
+				FB1520FC291E54DE007AF3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB1520C8291E54DC007AF3BF /* Project object */;
+}
